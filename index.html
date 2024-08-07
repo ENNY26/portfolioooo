@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Eniola</div>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="toggle-mode">
+            <img src="img/moon-svgrepo-com.svg" alt="Toggle Dark Mode">
+        </button>
+    </header>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi i'm Eniola</h1>
+            <p>welcome to my Portfolio</p>
+            <button>Resume</button>
+        </div>
+        <!--
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    -->
+    </section>
+    <section id="works">
+        <h2>My Works</h2>
+        <div class="works-container">
+            <div class="work-item">
+                <img src="img/world_food_day_right-m8wTFWo4.jpg" alt="Project 1" width="300px">
+                <h3>Social Good Application</h3>
+                <p>This is my first ever website built as the final project for codepath's intro to web dev course. it is a desktop only application </p>
+               <a href="https://jesusfoundation.netlify.app/"><button>Demo</button></a> 
+               <a href="https://github.com/ENNY26/EorehinAdvocasyProject"><button>Code</button></a> 
+            </div>
+            <div class="work-item">
+                <img src="img/image.png" alt="Project 2">
+                <h3>Hair Salon Landing page</h3>
+                <p>This is a landing page i built for  a small business</p>
+                <a href="https://flakyuniversalsalon.netlify.app/"><button>Demo</button></a>
+                <a href="https://github.com/ENNY26/Flakky-Salon"><button>Code</button></a>
+            </div>
+            <div class="work-item">
+                <img src="img/img.png" alt="Project 2">
+                <h3>Product Wesite</h3>
+                <p>This is another website i built for a small business</p>
+                <a href="https://rakelsignatures.netlify.app/"><button>Demo</button></a>
+                <a href="https://github.com/ENNY26/Rakel-Signatures"><button>Code</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="img/MYPIC.jpg" alt="My Photo">
+            <p>Hi!!, thanks or checking out my portfolio. my name is eniola and i'm an aspiring developer, currently im an upcoming senior at the college of staten island studing information system.
+                my passion lies within creating web applications. some of the things i enjoy doing include singing and cooking. it is an honor to have you check out my work!
+            </p>
+        </div>
+    </section>
+    <section id="tech-stack">
+        <h2>Tech Stack</h2>
+        <div class="tech-icons">
+            <div class="icon" data-tooltip="HTML">
+                <img src="img/html-5-svgrepo-com.svg" alt="HTML">
+            </div>
+            <div class="icon" data-tooltip="CSS">
+                <img src="img/css3.svg" alt="CSS">
+            </div>
+            <div class="icon" data-tooltip="JavaScript">
+                <img src="img/js-svgrepo-com.svg" alt="JavaScript">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>lets connect</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
